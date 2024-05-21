@@ -1,91 +1,77 @@
 body {
-    background-image: url('https://via.placeholder.com/1600x900'); /* Replace with a futuristic background image URL */
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: Arial, sans-serif;
+background-image: url('https://via.placeholder.com/1600x900'); /* Replace with a futuristic background image URL */
+background-size: cover;
+background-attachment: fixed;
+font-family: Arial, sans-serif;
 }
-
 .dashboard {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
+background: rgba(255, 255, 255, 0.8);
+padding: 20px;
+border-radius: 10px;
+margin-top: 20px;
 }
-
 h1 {
-    margin-bottom: 20px;
+margin-bottom: 20px;
 }
-
 .map-container img {
-    width: 100%;
-    border: 1px solid #ddd;
+width: 100%;
+border: 1px solid #ddd;
 }
-
 .notam {
-    background-color: #fff;
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin-top: 10px;
+background-color: #fff;
+padding: 10px;
+border: 1px solid #ddd;
+margin-top: 10px;
 }
-
 .alternate-routes {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
+background-color: #fff;
+padding: 15px;
+border: 1px solid #ddd;
+margin-bottom: 10px;
 }
-
 .alternate-routes h2 {
-    margin-bottom: 10px;
+margin-bottom: 10px;
 }
-
 .routes p {
-    margin: 5px 0;
+margin: 9px 0;
 }
-
 .route {
-    display: inline-block;
-    width: 20px;
-    height: 5px;
-    margin-right: 10px;
+display: inline-block;
+width: 50px;
+height: 20px;
+margin-right: 10px;
 }
-
 .route.current {
-    background-color: #ff00ff; /* Pink for current route */
+  width: 70px;
+background-color: #ff00ff; /* Pink for current route */
 }
-
 .route.traffic {
-    background-color: #ffff00; /* Yellow for traffic route */
+  width: 70px;
+background-color: #ffff00; /* Yellow for traffic route */
 }
-
 .route.fastest {
-    background-color: #00ff00; /* Green for fastest route */
+  width: 70px;
+background-color: #00ff00; /* Green for fastest route */
 }
-
 .weather-info, .metrics, .weather-alert, .arrival-time {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
+background-color: #fff;
+padding: 15px;
+border: 1px solid #ddd;
+margin-bottom: 10px;
 }
-
 .weather-info p, .metrics p, .weather-alert p, .arrival-time p {
-    margin: 0;
+margin: 0;
 }
-
 .progress {
-    height: 20px;
-    margin-bottom: 10px;
+height: 20px;
+margin-bottom: 10px;
 }
-
 .system-health {
-    margin-top: 10px;
+margin-top: 10px;
 }
-
 .system-health img {
-    width: 100%;
+width: 100%;
 }
-
 .weather-alert button {
-    margin-top: 10px;
+margin-top: 10px;
 }
