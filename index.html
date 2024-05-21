@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxima Dashboard</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid dashboard">
+        <div class="row">
+            <div class="col-md-4">
+                <h1>Proxima Dashboard</h1>
+                <div class="map-container">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/hKQ7k8x/Whats-App-Image-2024-05-21-at-12-21-41.jpg" alt="Whats-App-Image-2024-05-21-at-12-21-41" border="0"></a>
+                </div>
+                <div class="notam">
+                    <p><strong>NOTAM:</strong> Runway 14R/32L closed for maintenance. Pilots are advised to use alternate runways.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="alternate-routes">
+                    <h2>Alternate Routes</h2>
+                    <div class="routes">
+                        <p><span class="route current"></span> Current</p>
+                        <p><span class="route traffic"></span> Traffic</p>
+                        <p><span class="route fastest"></span> Fastest</p>
+                    </div>
+                </div>
+                <div class="weather-alert">
+                    <h2>Weather Alert</h2>
+                    <p>Foggy 25 minutes ahead</p>
+                    <button class="btn btn-primary">Reroute</button>
+                </div>
+                <div class="arrival-time">
+                    <h2>Arrival time</h2>
+                    <p>Expected: 4:02:03</p>
+                    <p>Minimum: 3:32:03</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="weather-info">
+                    <p>☁️ Cloudy, 19° C</p>
+                </div>
+                <div class="metrics">
+                    <p>Flytime remaining</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 46%;">46%</div>
+                    </div>
+                    <p>Fuel remaining</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" style="width: 30%;">30%</div>
+                    </div>
+                    <div class="system-health">
+                        <p>System Health</p>
+                        <img src="https://via.placeholder.com/150x50" alt="System Health">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
